@@ -1,4 +1,4 @@
-# java-web-sbt-blade-postgres-hibernate-simple
+# java-cli-sbt-blade-postgres-hibernate-ssl-api
 
 ## Description
 Creates a small database table
@@ -14,8 +14,10 @@ hql.
   - postgres driver
 
 ## Docker stack
+- alpine:edge
 - hseeberger/scala-sbt:11.0.2-oraclelinux7_1.3.5_2.12.10
 - postgres:alpine
+- traefik
 
 ## To run
 `sudo ./install.sh -u`
