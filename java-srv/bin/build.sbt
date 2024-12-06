@@ -18,8 +18,7 @@ lazy val root = (project in file("."))
   autoScalaLibrary := false,
 
   libraryDependencies ++= Seq(
-    
-"org.postgresql" % "postgresql" % "42.2.18.jre7",
+    "org.apache.derby" % "derbyclient" % "10.13.1.1",
     "com.google.code.gson" % "gson" % "2.9.0",
     "org.hibernate" % "hibernate-core" % "5.3.7.Final",
     "javax.persistence" % "javax.persistence-api" % "2.2",

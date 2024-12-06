@@ -1,4 +1,4 @@
-# java-cli-sbt-blade-postgres-hibernate-ssl-api
+# java-cli-sbt-blade-derby-standalone-hibernate-api
 
 ## Description
 Creates a small database table
@@ -11,13 +11,11 @@ hql.
   - hibernate
   - hql
   - blade
-  - postgres driver
+  - derby driver
 
 ## Docker stack
-- alpine:edge
+- az82/docker-derby
 - hseeberger/scala-sbt:11.0.2-oraclelinux7_1.3.5_2.12.10
-- postgres:alpine
-- traefik
 
 ## To run
 `sudo ./install.sh -u`
